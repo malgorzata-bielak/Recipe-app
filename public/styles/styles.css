@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #333;
+}
+
+.header {
+  align-items: center;
+  background-color: #3b7e26;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.container {
+  /* flex-direction: column; */
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+h1 {
+  font-size: 45px;
+  color: #fff;
+}
+
+.search-filter {
+  background-color: #f7f7f7;
+}
+
+.search-input {
+  border: 1.1px solid #dedfe0;
+  border-radius: 10px;
+  padding: 5px 10px 5px 8px;
+}
+
+.recipe {
+  /* border: 1.5px solid rgb(199, 199, 199); */
+  background-color: #f7f7f7;
+  border: 1px solid #dedfe0;
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a span {
+  color: black;
+  display: block;
+}
+
+a span:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+button {
+  border: none;
+  padding: 5px;
+  color: #fff;
+  background-color: #3b7e26;
+  padding: 8px;
+}
+
+/* EDIT */
+.container-input * {
+  width: 100%;
+}
+
+.title-input {
+  border: 1.5px solid #3b7e26;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 6px;
+}
+
+.text-input {
+  border: 1.5px solid #3b7e26;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  padding: 6px;
+  height: 150px;
+}
+
+.div-parent {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty-message {
+  margin-bottom: 20px;
+}
+
+.remove-button {
+  background-color: #fff;
+  color: #a5a5a5;
+  border: none;
+}
+
+.remove-button:hover {
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+.delete-recipe {
+  background-color: #a7a8a8;
+}
+
+.ingredient-input {
+  align-items: center;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.add-input {
+  border: 1.5px solid #3b7e26;
+  margin-right: 5px;
+  padding: 6px;
+}
+
+div span {
+  padding-left: 5px;
+}

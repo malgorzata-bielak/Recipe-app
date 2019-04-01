@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipe App</title>
+    <link href="/styles/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-input">
+        <input id="recipe-title" class="title-input" type="text" placeholder="Recipe title" />
+      </div>
+      <div class="container-input">
+        <textarea id="recipe-body" class="text-input" placeholder="Steps to make"></textarea>
+      </div>
+      <div>
+        <h2>Ingredients</h2>
+        <div id="ingredients"></div>
+        <div class="ingredient-input">
+          <input id="add-ingredient" class="add-input" type="text" placeholder="Add ingredient" />
+          <button id="add-ingredient-button">Add</button>
+        </div>
+      </div>
+      <div>
+        <button id="delete-recipe-button" class="button delete-recipe">Delete recipe</button>
+      </div>
+    </div>
+    <script src="/scripts/edit-bundle.js"></script>
+  </body>
+</html>
